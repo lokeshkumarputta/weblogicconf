@@ -28,11 +28,11 @@ public class SwaggerConfig {
 	}
 
 	private ApiInfo apiInfo() {
-		return new ApiInfoBuilder().title("JavaInUse API")
-				.description("JavaInUse API reference for developers")
-				.termsOfServiceUrl("http://javainuse.com")
-				.contact("javainuse@gmail.com").license("JavaInUse License")
-				.licenseUrl("javainuse@gmail.com").version("1.0").build();
+		return new ApiInfoBuilder().title("Java Oriented Blog Spot")
+				.description("Java Oriented Blog Spot reference for developers")
+				.termsOfServiceUrl("http://javaoriented.blogspot.com/")
+				.contact("lokeshkumarputta@gmail.com").license("Java Oriented License")
+				.licenseUrl("lokeshkumarputta@gmail.com").version("1.0").build();
 	}
 
 }
